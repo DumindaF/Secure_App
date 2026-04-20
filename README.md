@@ -90,6 +90,20 @@ Code Commit
 | Week 5 | README documentation, GitHub repository setup, integration testing | ✅ Complete |
 | Week 6 | Final presentation & submission *(current)* | 🔄 In Progress |
 
+### GANTT Chart
+
+| Task | Wk 1 | Wk 2 | Wk 3 | Wk 4 | Wk 5 | Wk 6 |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Project proposal & scope | 🟩 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| Threat modelling (DFD) | 🟩 | 🟩 | ⬜ | ⬜ | ⬜ | ⬜ |
+| Pipeline development | ⬜ | 🟩 | 🟩 | 🟩 | ⬜ | ⬜ |
+| STRIDE mapping | ⬜ | ⬜ | 🟩 | 🟩 | ⬜ | ⬜ |
+| HTML report generator | ⬜ | ⬜ | ⬜ | 🟩 | 🟩 | ⬜ |
+| README & GitHub setup | ⬜ | ⬜ | ⬜ | ⬜ | 🟩 | 🟩 |
+| Final presentation & submission | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 🟦 |
+
+> 🟩 Complete &nbsp;&nbsp; 🟦 In progress &nbsp;&nbsp; ⬜ Not started
+
 ### Completed Milestones
 
 - **Week 1** — Project proposal submitted; OWASP Threat Modeling methodology selected
@@ -201,4 +215,3 @@ The full DFD is available as:
 - [detect-secrets](https://github.com/Yelp/detect-secrets)
 - [pip-audit](https://github.com/pypa/pip-audit)
 - [MITRE STRIDE Framework](https://attack.mitre.org/)
-# DevSecOps Threat Detection Pipeline
