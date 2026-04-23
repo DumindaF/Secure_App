@@ -1,0 +1,122 @@
+<svg width="860" height="420" viewBox="0 0 860 420" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+
+  <!-- Background -->
+  <rect width="860" height="420" fill="#ffffff" rx="12"/>
+
+  <!-- Title -->
+  <text x="24" y="36" font-size="15" font-weight="500" fill="#2c2c2a">Project Timeline — DevSecOps Threat Detection Pipeline</text>
+  <text x="24" y="56" font-size="12" fill="#73726c">Duminda Fernando · S10680634 · CYB6005 · 6-week schedule</text>
+
+  <!-- Legend -->
+  <rect x="24" y="72" width="12" height="12" rx="2" fill="#639922"/>
+  <text x="40" y="83" font-size="11" fill="#73726c">Completed</text>
+  <rect x="120" y="72" width="12" height="12" rx="2" fill="#185FA5"/>
+  <text x="136" y="83" font-size="11" fill="#73726c">In progress</text>
+  <rect x="220" y="72" width="12" height="12" rx="2" fill="#f1efe8" stroke="#d3d1c7" stroke-width="0.5"/>
+  <text x="236" y="83" font-size="11" fill="#73726c">Not started</text>
+
+  <!-- Column headers -->
+  <text x="220" y="106" font-size="11" fill="#888780" text-anchor="middle">Wk 1</text>
+  <text x="330" y="106" font-size="11" fill="#888780" text-anchor="middle">Wk 2</text>
+  <text x="440" y="106" font-size="11" fill="#888780" text-anchor="middle">Wk 3</text>
+  <text x="550" y="106" font-size="11" fill="#888780" text-anchor="middle">Wk 4</text>
+  <text x="660" y="106" font-size="11" fill="#888780" text-anchor="middle">Wk 5</text>
+  <text x="770" y="106" font-size="11" font-weight="500" fill="#185FA5" text-anchor="middle">Wk 6 ◀</text>
+
+  <!-- Row backgrounds (alternating) -->
+  <rect x="0" y="112" width="860" height="34" fill="#f9f9f7" rx="0"/>
+  <rect x="0" y="180" width="860" height="34" fill="#f9f9f7" rx="0"/>
+  <rect x="0" y="248" width="860" height="34" fill="#f9f9f7" rx="0"/>
+  <rect x="0" y="316" width="860" height="34" fill="#f9f9f7" rx="0"/>
+
+  <!-- Row labels -->
+  <text x="16" y="134" font-size="12" fill="#5f5e5a">Project proposal &amp; scope</text>
+  <text x="16" y="168" font-size="12" fill="#5f5e5a">Threat modelling (DFD)</text>
+  <text x="16" y="202" font-size="12" fill="#5f5e5a">Pipeline development</text>
+  <text x="16" y="236" font-size="12" fill="#5f5e5a">STRIDE mapping</text>
+  <text x="16" y="270" font-size="12" fill="#5f5e5a">HTML report generator</text>
+  <text x="16" y="304" font-size="12" fill="#5f5e5a">README &amp; GitHub setup</text>
+  <text x="16" y="338" font-size="12" fill="#5f5e5a">Final presentation &amp; submission</text>
+
+  <!-- Empty cells (all rows, all weeks) -->
+  <!-- Row 1 -->
+  <rect x="335" y="116" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="445" y="116" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="555" y="116" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="665" y="116" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="745" y="116" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <!-- Row 2 -->
+  <rect x="445" y="150" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="555" y="150" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="665" y="150" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="745" y="150" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <!-- Row 3 -->
+  <rect x="175" y="184" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="555" y="184" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="665" y="184" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="745" y="184" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <!-- Row 4 -->
+  <rect x="175" y="218" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="285" y="218" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="665" y="218" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="745" y="218" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <!-- Row 5 -->
+  <rect x="175" y="252" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="285" y="252" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="395" y="252" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="745" y="252" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <!-- Row 6 -->
+  <rect x="175" y="286" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="285" y="286" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="395" y="286" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="505" y="286" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <!-- Row 7 -->
+  <rect x="175" y="320" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="285" y="320" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="395" y="320" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="505" y="320" width="96" height="22" rx="3" fill="#f1efe8"/>
+  <rect x="615" y="320" width="96" height="22" rx="3" fill="#f1efe8"/>
+
+  <!-- DONE cells (green) -->
+  <!-- Row 1: Wk1 -->
+  <rect x="175" y="116" width="96" height="22" rx="3" fill="#639922"/>
+  <!-- Row 2: Wk1, Wk2 -->
+  <rect x="175" y="150" width="96" height="22" rx="3" fill="#639922"/>
+  <rect x="285" y="150" width="96" height="22" rx="3" fill="#639922"/>
+  <!-- Row 3: Wk2, Wk3, Wk4 -->
+  <rect x="285" y="184" width="96" height="22" rx="3" fill="#639922"/>
+  <rect x="395" y="184" width="96" height="22" rx="3" fill="#639922"/>
+  <rect x="505" y="184" width="96" height="22" rx="3" fill="#639922"/>
+  <!-- Row 4: Wk3, Wk4 -->
+  <rect x="395" y="218" width="96" height="22" rx="3" fill="#639922"/>
+  <rect x="505" y="218" width="96" height="22" rx="3" fill="#639922"/>
+  <!-- Row 5: Wk4, Wk5 -->
+  <rect x="505" y="252" width="96" height="22" rx="3" fill="#639922"/>
+  <rect x="615" y="252" width="96" height="22" rx="3" fill="#639922"/>
+  <!-- Row 6: Wk5, Wk6 -->
+  <rect x="615" y="286" width="96" height="22" rx="3" fill="#639922"/>
+  <rect x="725" y="286" width="96" height="22" rx="3" fill="#639922"/>
+
+  <!-- ACTIVE cell (blue) - Row 7 Wk6 -->
+  <rect x="725" y="320" width="96" height="22" rx="3" fill="#185FA5"/>
+
+  <!-- Divider -->
+  <line x1="16" y1="358" x2="844" y2="358" stroke="#d3d1c7" stroke-width="0.5"/>
+
+  <!-- Milestone diamonds -->
+  <rect x="193" y="368" width="11" height="11" rx="2" fill="#639922" transform="rotate(45 198 373)"/>
+  <rect x="413" y="368" width="11" height="11" rx="2" fill="#639922" transform="rotate(45 418 373)"/>
+  <rect x="633" y="368" width="11" height="11" rx="2" fill="#639922" transform="rotate(45 638 373)"/>
+  <rect x="743" y="368" width="11" height="11" rx="2" fill="#185FA5" transform="rotate(45 748 373)"/>
+
+  <!-- Milestone labels -->
+  <text x="175" y="398" font-size="10" fill="#888780" text-anchor="middle">Proposal</text>
+  <text x="175" y="410" font-size="10" fill="#888780" text-anchor="middle">submitted</text>
+  <text x="395" y="398" font-size="10" fill="#888780" text-anchor="middle">Prototype</text>
+  <text x="395" y="410" font-size="10" fill="#888780" text-anchor="middle">v1 complete</text>
+  <text x="615" y="398" font-size="10" fill="#888780" text-anchor="middle">Working</text>
+  <text x="615" y="410" font-size="10" fill="#888780" text-anchor="middle">pipeline</text>
+  <text x="750" y="398" font-size="10" fill="#185FA5" text-anchor="middle">Final</text>
+  <text x="750" y="410" font-size="10" fill="#185FA5" text-anchor="middle">submission</text>
+
+</svg>
