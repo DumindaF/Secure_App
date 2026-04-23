@@ -1,6 +1,9 @@
 import subprocess
 import json
+<<<<<<< HEAD
 import os
+=======
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
 from datetime import datetime
 
 def run_bandit(target_file):
@@ -202,7 +205,11 @@ def run_pipeline(target_file):
     generate_report(findings)
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     # Use path relative to this script's location so it works from any directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
     target = os.path.join(script_dir, "..", "pipeline", "code vulnerable_app.py")
+=======
+    target = "../pipeline/code vulnerable_app.py"
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
     run_pipeline(target)

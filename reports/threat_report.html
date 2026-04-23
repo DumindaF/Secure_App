@@ -11,6 +11,7 @@
         .card { background: white; padding: 20px; border-radius: 8px; flex: 1; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
         .card h2 { margin: 0; font-size: 36px; }
         .card p { margin: 5px 0 0; color: #666; }
+<<<<<<< HEAD
         .total  { border-top: 4px solid #2c3e50; }
         .high   { border-top: 4px solid #e74c3c; }
         .medium { border-top: 4px solid #e67e22; }
@@ -20,6 +21,16 @@
         th { background: #2c3e50; color: white; padding: 12px; text-align: left; font-size: 13px; }
         td { padding: 12px; border-bottom: 1px solid #eee; font-size: 13px; vertical-align: top; }
         td.rec { color: #2c3e50; font-style: italic; font-size: 12px; }
+=======
+        .total { border-top: 4px solid #2c3e50; }
+        .high { border-top: 4px solid #e74c3c; }
+        .medium { border-top: 4px solid #e67e22; }
+        .low { border-top: 4px solid #f1c40f; }
+        table { width: 100%; border-collapse: collapse; background: white;
+                 border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        th { background: #2c3e50; color: white; padding: 12px; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #eee; font-size: 14px; }
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
         tr:hover { background: #f9f9f9; }
         .footer { text-align: center; margin-top: 30px; color: #999; font-size: 12px; }
         .methodology { background: white; padding: 20px; border-radius: 8px;
@@ -30,6 +41,7 @@
 <body>
     <div class="header">
         <h1>DevSecOps Threat Detection Report</h1>
+<<<<<<< HEAD
         <p>Project: Secure App Pipeline &nbsp;|&nbsp; Generated: 2026-04-23 21:45:51 &nbsp;|&nbsp; Methodology: OWASP STRIDE</p>
     </div>
 
@@ -38,6 +50,28 @@
         <div class="card high"><h2 style="color:#e74c3c">5</h2><p>High Severity</p></div>
         <div class="card medium"><h2 style="color:#e67e22">2</h2><p>Medium Severity</p></div>
         <div class="card low"><h2 style="color:#f1c40f">1</h2><p>Low Severity</p></div>
+=======
+        <p>Project: Secure App Pipeline &nbsp;|&nbsp; Generated: 2026-03-11 19:12:05 &nbsp;|&nbsp; Methodology: OWASP STRIDE</p>
+    </div>
+
+    <div class="summary">
+        <div class="card total">
+            <h2>5</h2>
+            <p>Total Findings</p>
+        </div>
+        <div class="card high">
+            <h2 style="color:#e74c3c">2</h2>
+            <p>High Severity</p>
+        </div>
+        <div class="card medium">
+            <h2 style="color:#e67e22">2</h2>
+            <p>Medium Severity</p>
+        </div>
+        <div class="card low">
+            <h2 style="color:#f1c40f">1</h2>
+            <p>Low Severity</p>
+        </div>
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
     </div>
 
     <div class="methodology">
@@ -60,7 +94,10 @@
             <th>STRIDE Category</th>
             <th>Location</th>
             <th>Description</th>
+<<<<<<< HEAD
             <th>Recommendation</th>
+=======
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
         </tr>
         
         <tr>
@@ -73,7 +110,10 @@
                 border-radius:4px;font-size:12px">Information Disclosure</span></td>
             <td>Line 4</td>
             <td>Possible hardcoded password: 'supersecret123'</td>
+<<<<<<< HEAD
             <td class="rec">Remove hardcoded password. Store credentials in environment variables using os.environ or a secrets manager such as python-dotenv or AWS Secrets Manager.</td>
+=======
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
         </tr>
         <tr>
             <td>2</td>
@@ -85,7 +125,10 @@
                 border-radius:4px;font-size:12px">Tampering</span></td>
             <td>Line 11</td>
             <td>Possible SQL injection vector through string-based query construction.</td>
+<<<<<<< HEAD
             <td class="rec">Replace string-concatenated queries with parameterised queries. Use cursor.execute('SELECT * FROM users WHERE id = ?', (user_id,)) to prevent SQL injection.</td>
+=======
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
         </tr>
         <tr>
             <td>3</td>
@@ -97,12 +140,16 @@
                 border-radius:4px;font-size:12px">Tampering</span></td>
             <td>Line 19</td>
             <td>Possible SQL injection vector through string-based query construction.</td>
+<<<<<<< HEAD
             <td class="rec">Replace string-concatenated queries with parameterised queries. Use cursor.execute('SELECT * FROM users WHERE id = ?', (user_id,)) to prevent SQL injection.</td>
+=======
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
         </tr>
         <tr>
             <td>4</td>
             <td><span style="background:#e74c3c;color:white;padding:3px 8px;
                 border-radius:4px;font-size:12px">HIGH</span></td>
+<<<<<<< HEAD
             <td>Secret Keyword</td>
             <td>detect-secrets</td>
             <td><span style="background:#2980b9;color:white;padding:3px 8px;
@@ -127,16 +174,24 @@
             <td>6</td>
             <td><span style="background:#e74c3c;color:white;padding:3px 8px;
                 border-radius:4px;font-size:12px">HIGH</span></td>
+=======
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
             <td>CVE-2025-8869</td>
             <td>pip-audit</td>
             <td><span style="background:#2980b9;color:white;padding:3px 8px;
                 border-radius:4px;font-size:12px">Tampering</span></td>
             <td>Line N/A</td>
             <td>When extracting a tar archive pip may not check symbolic links point into the extraction directory i</td>
+<<<<<<< HEAD
             <td class="rec">Upgrade pip to the latest version: pip install --upgrade pip</td>
         </tr>
         <tr>
             <td>7</td>
+=======
+        </tr>
+        <tr>
+            <td>5</td>
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
             <td><span style="background:#e74c3c;color:white;padding:3px 8px;
                 border-radius:4px;font-size:12px">HIGH</span></td>
             <td>CVE-2026-1703</td>
@@ -145,6 +200,7 @@
                 border-radius:4px;font-size:12px">Tampering</span></td>
             <td>Line N/A</td>
             <td>When pip is installing and extracting a maliciously crafted wheel archive, files may be extracted ou</td>
+<<<<<<< HEAD
             <td class="rec">Upgrade pip to the latest version: pip install --upgrade pip</td>
         </tr>
         <tr>
@@ -158,12 +214,18 @@
             <td>Line N/A</td>
             <td>A security flaw has been discovered in pygments before 2.20.0. The impacted element is the function </td>
             <td class="rec">Upgrade Pygments to version 2.20.0 or later: pip install --upgrade pygments</td>
+=======
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
         </tr>
     </table>
 
     <div class="footer">
         <p>Generated by DevSecOps Threat Detection Pipeline &nbsp;|&nbsp;
+<<<<<<< HEAD
         OWASP Threat Modeling Cheat Sheet &nbsp;|&nbsp; 2026-04-23 21:45:51</p>
+=======
+        OWASP Threat Modeling Cheat Sheet &nbsp;|&nbsp; 2026-03-11 19:12:05</p>
+>>>>>>> 06f5d71e2fcd536ad53cb087567815dae7174063
     </div>
 </body>
 </html>
